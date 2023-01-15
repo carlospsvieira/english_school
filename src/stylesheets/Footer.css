@@ -1,0 +1,26 @@
+footer {
+  padding: 2rem 10rem;
+  margin: 0 auto;
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-container p {
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: large;
+}
+
+.socials p {
+  cursor: pointer;
+}
