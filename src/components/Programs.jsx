@@ -1,7 +1,58 @@
 import React from 'react'
+import '../stylesheets/Programs.css'
+import onCampus from '../images/on-campus.jpg'
+import onlineClasses from '../images/online-classes.jpg'
+import summerClasses from '../images/summer-classes.jpg'
+import { Link } from 'react-router-dom'
 
 export default function Programs() {
   return (
-    <div>Programs</div>
+    <div className='programs'>
+      <h1>Programs</h1>
+      <div className='programs-container'>
+        <div className='program-content'>
+          <img src={onCampus} alt="" />
+          <h2>On Campus</h2>
+          <span>
+            Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus.
+            Cras semper auctor neque vitae tempus.
+            Non consectetur a erat nam at lectus urna duis convallis.
+            Non curabitur gravida arcu ac. Accumsan in nisl nisi scelerisque eu ultrices vitae.
+            Gravida arcu ac tortor dignissim convallis aenean et tortor at.
+          </span>
+          <div>
+            <Link to="/register">Register Now!</Link>
+          </div>
+        </div>
+        <div className='program-content'>
+          <img src={onlineClasses} alt="" />
+          <h2>Online</h2>
+          <span>
+            Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus.
+            Cras semper auctor neque vitae tempus.
+            Non consectetur a erat nam at lectus urna duis convallis.
+            Non curabitur gravida arcu ac. Accumsan in nisl nisi scelerisque eu ultrices vitae.
+            Gravida arcu ac tortor dignissim convallis aenean et tortor at.
+          </span>
+          <div>
+            <Link to="/register">Register Now!</Link>
+          </div>
+        </div>
+        <div className='program-content'>
+          <img src={summerClasses} alt="" />
+          <h2>Summer Classes</h2>
+          <span>
+            Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus.
+            Cras semper auctor neque vitae tempus.
+            Non consectetur a erat nam at lectus urna duis convallis.
+            Non curabitur gravida arcu ac. Accumsan in nisl nisi scelerisque eu ultrices vitae.
+            Gravida arcu ac tortor dignissim convallis aenean et tortor at.
+          </span>
+          <div>
+            <Link to="/register">Register Now!</Link>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
