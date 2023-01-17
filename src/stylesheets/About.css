@@ -1,0 +1,23 @@
+.about-container {
+  background: url('../images/building.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto;
+  gap: 1rem;
+  width: 50%;
+  text-shadow: 1px 1px black;
+}
+
+.about-text span {
+  text-align: justify;
+}
