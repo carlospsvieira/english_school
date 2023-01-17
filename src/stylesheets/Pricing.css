@@ -1,0 +1,23 @@
+.pricing-container {
+  padding: 10rem 10rem;
+  height: 100vh;
+}
+
+.pricing-container h1 {
+  margin-bottom: 2rem;
+}
+
+.pricing-container a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.3rem 0.8rem;
+  transition: 0.3s;
+}
+
+.pricing-container a:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition: 0.3s;
+}
