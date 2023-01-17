@@ -10,11 +10,11 @@
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
-  gap: 1rem;
 }
 
 .program-content {
   max-width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .program-content h2 {
@@ -22,5 +22,30 @@
 }
 
 .program-content img {
-  max-width: 500px;
+  width: 500px;
+  height: 350px;
+}
+
+.program-text {
+  text-align: justify;
+  padding: 2rem;
+}
+
+.program-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.program-text p {
+  margin-top: 0.5rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.program-text p:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
