@@ -1,5 +1,6 @@
 .programs {
   margin-top: 5rem;
+  height: 100vh;
 }
 
 .programs h1 {
@@ -9,7 +10,7 @@
 .programs-container {
   display: flex;
   justify-content: space-around;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .program-content {
