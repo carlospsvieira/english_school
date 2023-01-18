@@ -1,3 +1,7 @@
+.programs-container {
+  height: 100vh;
+}
+
 .programs-container h1 {
   text-align: center;
   padding: 5% 0;
@@ -17,7 +21,7 @@
 }
 
 .my-card img {
-  height: 250px;
+  height: 70%;
 }
 
 .my-card a {
@@ -25,8 +29,9 @@
   font-size: small;
   background-color: black;
   color: white;
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.7rem;
   border: 2px solid black;
+  border-radius: 3px;
   transition: 0.3s;
 }
 
@@ -37,9 +42,18 @@
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+  .programs-container {
+    height: max-content;
+  }
+
   .programs-container h1 {
-    font-size: medium;
+    font-size: large;
+  }
+
+  .my-cards {
+    display: flex;
+    flex-direction: column;
   }
 
   .my-card {
@@ -51,6 +65,10 @@
   }
 
   .my-card img {
-    height: 200px;
+    display: none;
+  }
+
+  .my-card a {
+    padding: 0.3rem 0.5rem;
   }
 }

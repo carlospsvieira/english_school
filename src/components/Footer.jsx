@@ -8,7 +8,7 @@ export default function Footer() {
     <footer>
       <div className="contact-container">
         <div className="socials">
-          <span>Follow us</span>
+          <span>Follow Us</span>
           <p>
             <BsInstagram /> <BsFacebook /> <BsTwitter />
           </p>

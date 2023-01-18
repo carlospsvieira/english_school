@@ -6,18 +6,21 @@
   flex-direction: column;
   color: white;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
-  object-fit: contain;
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
-  margin: 10rem auto;
-  gap: 1rem;
-  width: 50%;
+  margin: 10% auto;
   text-shadow: 1px 1px black;
 }
 
 .about-text span {
   text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-container {
+    height: max-content;
+  }
 }

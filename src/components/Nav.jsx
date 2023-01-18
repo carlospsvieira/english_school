@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../stylesheets/Nav.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark my-nav">
       <div className="container-fluid">
         <div className="my-logo">
           <Link to="/" className="navbar-brand">
@@ -27,11 +26,7 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link
-                  to="/about"
-                  className="nav-link active"
-                  aria-current="page"
-                >
+                <Link to="/about" className="nav-link">
                   About
                 </Link>
               </li>

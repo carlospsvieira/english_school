@@ -3,7 +3,7 @@ import "../stylesheets/Hero.css";
 
 export default function Hero() {
   const handleClickScroll = () => {
-    const element = document.querySelector(".programs");
+    const element = document.querySelector(".programs-container");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }

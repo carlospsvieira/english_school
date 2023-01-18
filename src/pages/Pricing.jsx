@@ -4,7 +4,7 @@ import "../stylesheets/Pricing.css";
 
 export default function Pricing() {
   return (
-    <div className="pricing-container">
+    <div className="pricing-container container">
       <h1>Dates & Pricing</h1>
       <table className="table table-hover">
         <thead>

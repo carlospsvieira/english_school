@@ -1,9 +1,14 @@
 .my-logo {
   font-size: large;
   margin-left: 10%;
+  padding: 0.5rem 0;
 }
 
 .my-links {
   font-size: large;
   margin: 0 25%;
+}
+
+.my-links a:hover {
+  border-bottom: 2px solid white;
 }

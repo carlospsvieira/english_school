@@ -1,5 +1,5 @@
 .pricing-container {
-  padding: 10rem;
+  margin: 10% auto;
   height: 100vh;
 }
 
@@ -21,3 +21,4 @@
   color: black;
   transition: 0.3s;
 }
+

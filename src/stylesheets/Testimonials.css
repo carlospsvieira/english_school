@@ -17,13 +17,12 @@
   gap: 1rem;
   align-items: center;
   margin: 2rem auto;
-  width: 600px;
+  max-width: 600px;
   height: 150px;
 }
 
 .card-container img {
-  width: 150px;
-  height: 150px;
+  width: 30%;
   border-radius: 50%;
 }
 
@@ -35,4 +34,31 @@
 .card-container span {
   color: white;
   text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+  .test-container {
+    height: max-content;
+  }
+
+  .test-container h1 {
+    font-size: large;
+    padding: 1rem;
+  }
+
+  .card-container {
+    padding: 0 0.5rem;
+  }
+
+  .card-container img {
+    width: 20%;
+  }
+
+  .card-container h3 {
+    font-size: large;
+  }
+
+  .card-container span {
+    font-size: small;
+  }
 }

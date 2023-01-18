@@ -1,7 +1,7 @@
 footer {
   padding: 2rem 10rem;
   margin: 0 auto;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(31, 31, 31);
   color: white;
 }
 
@@ -23,4 +23,14 @@ footer {
 
 .socials p {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    font-size: small;
+  }
 }
