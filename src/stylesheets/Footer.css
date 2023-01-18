@@ -27,10 +27,16 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    font-size: small;
+  }
+
+  .address {
+    display: none;
+  }
+
+  .socials {
+    display: none;
   }
 }
