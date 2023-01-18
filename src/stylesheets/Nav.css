@@ -7,6 +7,10 @@
   background-color: rgb(15, 15, 15, 0.45);
 }
 
+.hamburger {
+  display: none;
+}
+
 .links-container {
   font-size: large;
 }
@@ -30,4 +34,21 @@
 .logo a {
   text-decoration: none;
   color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: inline-block;
+  }
+
+  .links-container {
+    display: none;
+  }
+
+  .links-list li a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: black;
+  }
+
 }
