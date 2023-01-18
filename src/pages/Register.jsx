@@ -1,6 +1,5 @@
 import React from "react";
 import "../stylesheets/Register.css";
-import registration from "../images/registration.jpg";
 
 export default function Register() {
   return (
