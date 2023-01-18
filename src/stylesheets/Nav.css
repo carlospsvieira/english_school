@@ -1,54 +1,9 @@
-.nav-container {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 10rem;
-  background-color: rgb(15, 15, 15, 0.45);
-}
-
-.hamburger {
-  display: none;
-}
-
-.links-container {
+.my-logo {
   font-size: large;
+  margin-left: 10%;
 }
 
-.links-container a {
-  text-decoration: none;
-  padding: 0.3rem 1rem;
-  color: white;
-  margin-left: 1rem;
-}
-
-.links-container a:hover {
-  border-bottom: 3px solid white;
-}
-
-.logo {
-  font-size: x-large;
-  font-weight: 600;
-}
-
-.logo a {
-  text-decoration: none;
-  color: white;
-}
-
-@media only screen and (max-width: 1000px) {
-  .hamburger {
-    display: inline-block;
-  }
-
-  .links-container {
-    display: none;
-  }
-
-  .links-list li a {
-  text-decoration: none;
-  padding: 0.5rem;
-  color: black;
-  }
-
+.my-links {
+  font-size: large;
+  margin: 0 25%;
 }

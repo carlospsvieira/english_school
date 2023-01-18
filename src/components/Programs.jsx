@@ -7,55 +7,54 @@ import { Link } from "react-router-dom";
 
 export default function Programs() {
   return (
-    <div className="programs">
+    <div className="container programs-container">
       <h1>PROGRAMS</h1>
-      <div className="programs-container">
-        <div className="program-content">
-          <img src={onCampus} alt="on-campus" />
-          <h2>ON CAMPUS</h2>
-          <div className="program-text">
-            <Link to="/register">
-              <span>
-                Amet volutpat consequat mauris nunc congue nisi vitae suscipit
-                tellus. Cras semper auctor neque vitae tempus. Non consectetur a
-                erat nam at lectus urna duis convallis. Non curabitur gravida
-                arcu ac. Accumsan in nisl nisi scelerisque eu ultrices vitae.
-                Gravida arcu ac tortor dignissim convallis aenean et tortor at.
-              </span>
-              <p>Register Now!</p>
-            </Link>
+      <div className="card-group my-cards">
+        <div className="card my-card">
+          <img src={onCampus} className="card-img-top" alt="on-campus" />
+          <div className="card-body">
+            <h5 className="card-title">ON CAMPUS</h5>
+            <p className="card-text">
+              Lectus vestibulum mattis ullamcorper velit sed. Leo urna molestie
+              at elementum eu facilisis sed. Sollicitudin aliquam ultrices
+              sagittis orci. Ante in nibh mauris cursus mattis molestie a.
+              Viverra accumsan in nisl nisi scelerisque.
+            </p>
+            <Link to="/register">Register Now!</Link>
           </div>
         </div>
-        <div className="program-content">
-          <img src={onlineClasses} alt="online-classes" />
-          <h2>ONLINE</h2>
-          <div className="program-text">
-            <Link to="/register">
-              <span>
-                Amet volutpat consequat mauris nunc congue nisi vitae suscipit
-                tellus. Cras semper auctor neque vitae tempus. Non consectetur a
-                erat nam at lectus urna duis convallis. Non curabitur gravida
-                arcu ac. Accumsan in nisl nisi scelerisque eu ultrices vitae.
-                Gravida arcu ac tortor dignissim convallis aenean et tortor at.
-              </span>
-              <p>Register Now!</p>
-            </Link>
+        <div className="card my-card">
+          <img
+            src={onlineClasses}
+            className="card-img-top"
+            alt="online-classes"
+          />
+          <div className="card-body">
+            <h5 className="card-title">ONLINE</h5>
+            <p className="card-text">
+              Lectus vestibulum mattis ullamcorper velit sed. Leo urna molestie
+              at elementum eu facilisis sed. Sollicitudin aliquam ultrices
+              sagittis orci. Ante in nibh mauris cursus mattis molestie a.
+              Viverra accumsan in nisl nisi scelerisque.
+            </p>
+            <Link to="/register">Register Now!</Link>
           </div>
         </div>
-        <div className="program-content">
-          <img src={summerClasses} alt="summer-classes" />
-          <h2>SUMMER CLASSES</h2>
-          <div className="program-text">
-            <Link to="/register">
-              <span>
-                Amet volutpat consequat mauris nunc congue nisi vitae suscipit
-                tellus. Cras semper auctor neque vitae tempus. Non consectetur a
-                erat nam at lectus urna duis convallis. Non curabitur gravida
-                arcu ac. Accumsan in nisl nisi scelerisque eu ultrices vitae.
-                Gravida arcu ac tortor dignissim convallis aenean et tortor at.
-              </span>
-              <p>Register Now!</p>
-            </Link>
+        <div className="card my-card">
+          <img
+            src={summerClasses}
+            className="card-img-top"
+            alt="summer-classes"
+          />
+          <div className="card-body">
+            <h5 className="card-title">SUMMER CLASSES</h5>
+            <p className="card-text">
+              Lectus vestibulum mattis ullamcorper velit sed. Leo urna molestie
+              at elementum eu facilisis sed. Sollicitudin aliquam ultrices
+              sagittis orci. Ante in nibh mauris cursus mattis molestie a.
+              Viverra accumsan in nisl nisi scelerisque.
+            </p>
+            <Link to="/register">Register Now!</Link>
           </div>
         </div>
       </div>

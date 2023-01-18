@@ -10,8 +10,8 @@
 
 .heading {
   font-size: x-large;
-  margin-left: 10rem;
-  margin-top: 20rem;
+  width: fit-content;
+  margin: 25% 0;
 }
 
 .heading h2 {
@@ -33,4 +33,28 @@
   transition: 0.3s;
   background-color: white;
   color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-container {
+    height: 100%;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+  }
+
+  .heading h1 {
+    text-align: center;
+  }
+
+  .heading h2 {
+    text-align: center;
+  }
+
+  .heading button {
+    display: none;
+  }
 }
