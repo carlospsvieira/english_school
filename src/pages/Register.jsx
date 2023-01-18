@@ -1,5 +1,4 @@
 import React from "react";
-import "../stylesheets/Register.css";
 
 export default function Register() {
   return (
