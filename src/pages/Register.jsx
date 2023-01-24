@@ -3,7 +3,7 @@ import register from "../images/register.jpg";
 
 export default function Register() {
   return (
-    <form className="container py-5 h-100" action="carlospsvieira.github.io/english_school/#">
+    <form className="container py-5 h-100" action="/english_school/">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col">
           <div className="card card-registration my-4">
